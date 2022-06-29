@@ -24,5 +24,10 @@
 
 * ```docker image build -t asp-net-mvc/app1:1.0 .```
   * ```docker image build``` para executar o comando relativo ao **build** da **imagem**
-  * ```-t``` indica a **tag** que é o nome da imagem que vem logo à frente
+  * ```-t``` indica a **tag**, que é o nome da imagem que vem logo à frente
   * ```asp-net-mvc/app1:1.0``` é o nome ou **tag** da imagem
+  * ``` . ``` indica que a imagem está sendo criada no diretório atual que deve conter o arquivo **Dockerfile**
+
+# Criando o Container
+
+* ```docker container create -p 4000:80 --name mvc-produtos asp-net-mvc/app1:1.0```
