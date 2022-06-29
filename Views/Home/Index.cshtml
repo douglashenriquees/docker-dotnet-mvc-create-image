@@ -1,0 +1,29 @@
+﻿@model IEnumerable<mvc1.Models.Produto>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <br>
+    <div class="m-1 p-1">
+        <table class="table table-sm table-striped">
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>Nome</td>
+                    <td>Categoria</td>
+                    <td>Preço</td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.ProdutoId</td>
+                        <td>@item.Nome</td>
+                        <td>@item.Categoria</td>
+                        <td>@item.Preco</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
