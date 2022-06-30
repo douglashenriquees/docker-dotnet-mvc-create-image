@@ -38,3 +38,13 @@
 
 * ```docker container start mvc-produtos```
   * em seguida, a instrução acima executa o container
+
+# Publicando a Imagem
+  * ```docker image tag asp-net-mvc/app1:1.0 username/mvc-produtos```
+    * comando para definir uma nova **tag** para a imagem no **host**, associada a um usuário do **Docker Hub**
+  * ```docker login -u username```
+    * comando para logar no **Docker Hub**
+  * ```docker image push username/mvc-produtos:1.0```
+    * executa o envio da imagem para o repositório remoto do usuário logado
+  * ```docker container run -p 4000:80 --name mvc-produtos username/mvc-produtos:1.0```
+    * executa um container com base na imagem publicada
