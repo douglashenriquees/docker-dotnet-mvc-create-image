@@ -32,9 +32,9 @@
 
 * ```docker container create -p 4000:80 --name mvc-produtos asp-net-mvc/app1:1.0```
   * ```create``` é o comando que cria o container
-  * ```-p 4000:80``` para mapear a porta do container.
-    * **À esquerda dos dois pontos**, é a porta do **host**.
-    * **À direita dos dois pontos**, é a porta do container.
+  * ```-p 4000:80``` para mapear a porta do container
+    * **À esquerda dos dois pontos**, é a porta do **host**
+    * **À direita dos dois pontos**, é a porta do container
   * ```--name``` usado para dar nome aos containers
   * ```asp-net-mvc/app1:1.0``` especificando a imagem que foi criada anteriormente como a origem do container
 
