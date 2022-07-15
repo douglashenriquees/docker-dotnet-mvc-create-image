@@ -1,4 +1,4 @@
-namespace mvc1.Models;
+namespace mvc.Models;
 
 public class Produto
 {

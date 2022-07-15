@@ -17,7 +17,7 @@
   * definindo o diretório de trabalho dentro do container
 * ```EXPOSE 80/tcp```
   * expondo a porta do container que ficará acessível externamente
-* ```ENTRYPOINT ["dotnet", "mvc1.dll"]```
+* ```ENTRYPOINT ["dotnet", "mvc.dll"]```
   * definindo o ponto de entrada para execução do container
 
 ## Build da Imagem

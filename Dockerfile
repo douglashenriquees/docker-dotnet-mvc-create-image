@@ -3,4 +3,4 @@ LABEL version="1.0" description="Aplicacao ASP .NET MVC"
 COPY dist /app
 WORKDIR /app
 EXPOSE 80/tcp
-ENTRYPOINT ["dotnet", "mvc1.dll"]
+ENTRYPOINT ["dotnet", "mvc.dll"]

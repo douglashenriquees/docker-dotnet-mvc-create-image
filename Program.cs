@@ -1,4 +1,4 @@
-using mvc1.Repositories;
+using mvc.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 

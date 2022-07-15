@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "mvc1": {
+    "mvc": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
